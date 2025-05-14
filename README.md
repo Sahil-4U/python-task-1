@@ -1,39 +1,27 @@
-# Python Script: Even Number Checker & Sum Calculator
+# 🧮 Basic Math Operations in Python
 
-# Overview
+This Python program allows users to:
 
-This Python script performs two distinct tasks:
+1. Calculate the **factorial** of a number.
+2. Perform basic **math operations** using Python’s built-in `math` module, including:
+   - Square root
+   - Natural logarithm
+   - Sine (in radians)
 
-Even or Odd Number Checker
-Prompts the user to enter a number and determines whether the number is even or odd.
+---
 
-Sum of Integers Calculator
-Calculates the sum of all integers from 1 to 50 and displays the result.
+## 📝 How It Works
 
-# Task Descriptions
+### 1. Factorial Calculation
 
-# Task 1: Even or Odd Number Checker
+The program first asks the user to enter a number. It then calculates the factorial of that number using a recursive function.
 
-Prompts the user to input an integer.
+### 2. Math Module Operations
 
-# Checks if the number is divisible by 2.
+After that, the program asks for another number and performs the following:
 
-Prints a message indicating whether the number is even or odd.
+- **Square root**
+- **Natural logarithm** (`log`)
+- **Sine** value (in **radians**)
 
-# Example Output:
-
-Enter a number: 8  
-8 is an even number.
-
-# Task 2: Sum of Integers from 1 to 50
-
-Initializes a sum accumulator.
-
-Iterates through numbers from 1 to 50 using a for loop.
-
-Adds each number to the accumulator.
-
-Prints the total sum.
-
-Example Output:
-The sum of numbers from 1 to 50 is: 1275
+---
